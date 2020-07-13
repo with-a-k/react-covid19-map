@@ -3,8 +3,7 @@ import ReactMapGL, { Marker, NavigationControl } from "react-map-gl";
 
 import Tooltip from "./Tooltip";
 
-const TOKEN =
-  "pk.eyJ1Ijoiam9udGF5eXciLCJhIjoiY2s4aXcwbnA0MGFqYjNscDZicm9haXA3cCJ9.rI3D6Y4ZETQnYukX9RCOow";
+const TOKEN = ''
 
 const initialState = {
   map_data: [],

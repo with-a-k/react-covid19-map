@@ -3,7 +3,7 @@ import ReactMapGL, { Marker, NavigationControl } from "react-map-gl";
 
 import Tooltip from "./Tooltip";
 
-const TOKEN = ''
+const TOKEN = process.env.REACT_APP_MAPBOX_API_KEY
 
 const initialState = {
   map_data: [],
